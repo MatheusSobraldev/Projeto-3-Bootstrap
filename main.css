@@ -122,3 +122,9 @@ body {
 .btn-gamer:hover {
     background-color: #2ecc71;
 }
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
