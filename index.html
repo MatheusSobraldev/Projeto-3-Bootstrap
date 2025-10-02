@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+    <div class="container">
+        <h1 class="navbar-brand m-0 section-title">Gamer Shop</h1>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar-collapse collapse justify-content-end" id="menu-navegar">
+            <ul class="nav nav-pills d-block d-md-flex">
+                <li class="nav-item fw-bold">
+                    <a class="nav-link" href="#Inicio">
+                        <i class="bi bi-house-door me-1"></i>
+                        Início
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a class="nav-link" href="#Loja">
+                        <i class="bi bi-shop me-1"></i>
+                        Sobre a Loja
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a class="nav-link" href="#console">
+                        <i class="bi bi-controller me-1"></i>
+                        Consoles
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a class="nav-link" href="#contato">
+                        <i class="bi bi-chat-left-text me-1"></i>
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+    <section id="Inicio">
+    <div id="carrossel-imagens" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="1000" class="carousel-item active">
+                <img class="w-100" src="./images/Game controller.jpg" alt="Controle">
+            </div>
+            <div data-bs-interval="1000" class="carousel-item">
+                <img class="w-100" src="./images/jogos.png" alt="Jogos">
+            </div>
+            <div data-bs-interval="1000" class="carousel-item">
+                <img class="w-100" src="./images/Melhores-Jogos.jpg" alt="Melhores Jogos">
+            </div>
+            </div>
+            <button data-bs-target="#carrossel-imagens" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carrossel-imagens" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carrossel-imagens" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carrossel-imagens" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carrossel-imagens" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+<div id="Loja" class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="./images/Loja game.jpg" class="d-block w-100 rounded" alt="Loja">
+            </div>
+             <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre o <span class="text-colored">Loja</span></h2>
+                        <p>
+                            A Gamer Shop nasceu com o propósito de oferecer a melhor experiência para quem é apaixonado por videogames. Trabalhamos com os principais consoles do mercado, jogos originais e acessórios de qualidade, sempre com preços justos e atendimento especializado. Nosso objetivo é criar um espaço onde cada gamer se sinta em casa, encontrando desde os clássicos nostálgicos até os lançamentos mais aguardados.
+                        </p>
+                        <h3 class="section-title">Sobre o <span class="text-colored">Local</span></h3>
+                        <p>
+                           Localizada em um ambiente moderno e acessível, nossa loja foi pensada para ser um ponto de encontro dos apaixonados por games. Aqui você pode conhecer os consoles de perto, experimentar jogos e trocar experiências com outros jogadores. Mais do que uma loja, a Gamer Shop é um lugar para viver o universo gamer intensamente.
+                        <ul>
+                        <li>
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-playstation me-1"></i>
+                            </a>
+                        </li>
+                            <li>
+                                <a class="nav-link" href="#">
+                                    <i class="bi bi-xbox"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">
+                                    <i class="bi bi-nintendo-switch"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+        </div>
+    </div>
+</div>
+</section>
+<section id="console" class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">Consoles</span></h2>
+        </div>
+
+        <div class="row">
+            <nav class="nav nav-tabs">
+                <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Playstation</button>
+                <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Xbox</button>
+                <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Nintendo</button>
+            </nav>
+        </div>
+
+        <div class="tab-content mt-4">
+            <div id="aba1" class="tab-pane fade show active">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="./Consoles/ps5.png" alt="ps5">
+                        <h5 class="text-colored fw-bold mt-2">Playstation 5</h5>
+                        <p>O console mais avançado da Sony com gráficos de última geração.</p>
+                        <strong class="price">R$4200.00</strong>
+                        <button class="btn btn-gamer fw-bold mt-2">Pedir</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="./Consoles/PS4.webp" alt="ps4">
+                        <h5 class="text-colored fw-bold mt-2">Playstation 4</h5>
+                        <p>Clássico da Sony com vasta biblioteca de jogos.</p>
+                        <strong class="price">R$2300.00</strong>
+                        <button class="btn btn-gamer fw-bold mt-2">Pedir</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="./Consoles/PS3.webp" alt="ps3">
+                        <h5 class="text-colored fw-bold mt-2">Playstation 3</h5>
+                        <p>Um marco da geração passada, ótimo custo-benefício.</p>
+                        <strong class="price">R$1400.00</strong>
+                        <button class="btn btn-gamer fw-bold mt-2">Pedir</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="aba2" class="tab-pane fade">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="./Consoles/xbox 360.jpg" alt="xbox">
+                        <h5 class="text-colored fw-bold mt-2">Xbox 360</h5>
+                        <p>Console das gerações passadas em ótimas condições.</p>
+                        <strong class="price">R$1900.00</strong>
+                        <button class="btn btn-gamer fw-bold mt-2">Pedir</button>
+                    </div>
+                        <div class="col-md-4">
+                        <img class="d-block w-100" src="./Consoles/xbox one.jpg" alt="xbox one">
+                        <h5 class="text-colored fw-bold mt-2">Xbox One</h5>
+                        <p>Xbox one no preço para aqueles amantes de jogos.</p>
+                        <strong class="price">R$3200.00</strong>
+                        <button class="btn btn-gamer fw-bold mt-2">Pedir</button>
+                    </div>
+                        <div class="col-md-4">
+                        <img class="d-block w-100" src="./Consoles/xbox Serr.png" alt="xbox series">
+                        <h5 class="text-colored fw-bold mt-2">Xbox Series</h5>
+                        <p>Ultimo lançamento do xbox com 2 controles.</p>
+                        <strong class="price">R$5200.00</strong>
+                        <button class="btn btn-gamer fw-bold mt-2">Pedir</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="aba3" class="tab-pane fade">
+                <div class="row">
+                    <div class="col-md-4">
+                         <img class="d-block w-100" src="./Consoles/nintendo ds.jpg" alt="DS">
+                        <h5 class="text-colored fw-bold mt-2">Nintendo DS</h5>
+                        <p>Nintendo ds para aquelas pessoas nostalágicas com alguns jogos inclusos. </p>
+                        <strong class="price">R$2700.00</strong>
+                        <button class="btn btn-gamer fw-bold mt-2">Pedir</button>
+                    </div>
+                    <div class="col-md-4">
+                         <img class="d-block w-100" src="./Consoles/nintendo switch.jpg" alt="Switch">
+                        <h5 class="text-colored fw-bold mt-2">Nintendo switch</h5>
+                        <p>Nintendo switch no preço da ultima geração.</p>
+                        <strong class="price">R$5700.00</strong>
+                        <button class="btn btn-gamer fw-bold mt-2">Pedir</button>
+                    </div>
+                    <div class="col-md-4">
+                         <img class="d-block w-100" src="./Consoles/nintendo wii.jpg" alt="Wii">
+                        <h5 class="text-colored fw-bold mt-2">Nintendo Wii</h5>
+                        <p>Nintendo Wii com 2 controles e volante no preço para vocês.</p>
+                        <strong class="price">R$1300.00</strong>
+                        <button class="btn btn-gamer fw-bold mt-2">Pedir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+</section>
+<section id="contato">
+    <div class="container">
+        <div class="row">
+            <h2 class="section-title text-center mt-3">Fale <span class="text-colored">Conosco</span></h2>
+        </div>
+        <div class="row">
+            <div class="col-md-7 mb-5">
+                <form>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label fw-bold">Seu Nome</label>
+                        <input type="text" id="nome" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-bold">Seu Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                        <div class="mb-3">
+                        <label for="telefone" class="form-label fw-bold">Seu Telefone(opcional)</label>
+                        <input type="tel" id="telefone" class="form-control">
+                    </div>
+                        <div class="mb-3">
+                        <label for="mensagem" class="form-label fw-bold">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" required></textarea>
+                    </div>
+                    <button class="btn fw-bold" type="button">Enviar</button>
+                </form>
+            </div>
+            <div class="col-md-5">
+                <div class="row">
+                    <h3 class="section-title fs-4 text-colored">
+                        <i class="bi bi-hand-thumbs-up-fill"></i>
+                        Redes sociais</h3>
+                    <ul class="social-links">
+                        <li class="fs-5">
+                            <a href="#">
+                                <i class="bi bi-facebook text-colored"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5 ms-1 me-1">
+                            <a href="#">
+                                <i class="bi bi-instagram text-colored"></i>
+                            </a>
+                        </li>
+                        <li class="fs-5">
+                            <a href="#">
+                                <i class="bi bi-whatsapp text-colored"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row mt-4">
+                    <h3 class="section-title fs-4 text-colored">
+                        <i class="bi bi-cursor-fill"></i>
+                        Endereço</h3>
+                    <p>
+                        Rua do Gamer 67 - Sobramello
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

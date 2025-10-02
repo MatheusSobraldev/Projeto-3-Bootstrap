@@ -1,0 +1,124 @@
+/* Reset básico */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+.navbar-toggler {
+    background-color: #8e44ad; /* muda a borda */
+}
+
+/* Cabeçalho */
+#cabecalho {
+    background-color: #1f1f1f;
+    border-bottom: 2px solid #8e44ad;
+}
+#cabecalho .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: #8e44ad;
+    font-size: 2rem;
+}
+#cabecalho .nav-link {
+    color: #f5f5f5;
+    transition: 0.3s;
+}
+#cabecalho .nav-link:hover {
+    color: #8e44ad;
+}
+
+/* Seções */
+.section-title {
+    font-weight: bold;
+    color: #f5f5f5;
+    font-family: Pacifico, cursive;
+}
+.text-colored {
+    color: #8e44ad;
+}
+
+/* Carrossel */
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+/* Consoles */
+#console .col-md-4 {
+    background: #1f1f1f;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#console .col-md-4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(142, 68, 173, 0.7);
+}
+#console img {
+    border-radius: 10px;
+}
+#console h5 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+#console p {
+    font-size: 0.95rem;
+    color: #ccc;
+}
+#console .price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+/* Formulário */
+#contato .form-control {
+    background-color: #1f1f1f;
+    border: 1px solid #444;
+    color: #fff;
+}
+#contato .btn {
+    background-color: #8e44ad;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+#contato .btn:hover {
+    background-color: #2ecc71;
+}
+
+/* Social icons */
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.social-links li a {
+    color: #8e44ad;
+    transition: 0.3s;
+}
+.social-links li a:hover {
+    color: #2ecc71;
+}
+
+#console img {
+    width: 100%;
+    height: 220px; 
+    object-fit: contain; 
+    background-color: #000; 
+    padding: 10px;
+}
+
+.btn-gamer {
+    background-color: #8e44ad;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.btn-gamer:hover {
+    background-color: #2ecc71;
+}
